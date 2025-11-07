@@ -1,8 +1,7 @@
 package main;
 
-//import petitPrince.PetitPrince0;
-//import petitPrince.PetitPrince;
-
+import petitPrince.PetitPrince0;
+import petitPrince.PetitPrince;
 
 public class Run3PetitsPrinces {
 	
@@ -10,7 +9,7 @@ public class Run3PetitsPrinces {
 		System.out.println("Creation Petit Princes 0 : \n");
 		
 		for (int i = 1; i <= 9; i++) {
-//			new PetitPrince0();
+			new PetitPrince0();
 		}
 	}
 
@@ -18,15 +17,15 @@ public class Run3PetitsPrinces {
 		System.out.println("Creation Petit Princes : \n");
 		
 		for (int i = 1; i <= 9; i++) {
-//			new PetitPrince("PP" + i);
+			new PetitPrince("PP" + i);
 		}
 	}
 	
 	public static void main(String[] args) {
 		System.out.println("BEGIN : Petit Prince 2 \n");
 		
-		scenario0();
-//		scenario1();
+//		scenario0();
+		scenario1();
 		
 		System.out.println("\nEND \n");
 	}

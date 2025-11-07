@@ -1,4 +1,4 @@
-package test;
+package petitPrince;
 import asteroide.console.*;
 import asteroide.Sujet;
 

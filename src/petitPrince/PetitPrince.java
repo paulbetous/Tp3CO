@@ -1,16 +1,16 @@
-package test;
+package petitPrince;
 import asteroide.console.*;
 import asteroide.Sujet;
 
-public class PetitPrince0 implements Sujet{
+public class PetitPrince implements Sujet{
 	
 	private String nom;
 	private int argent;
 	private ConsoleJavaBoy console;
 	private int cpt;
 	
-	public PetitPrince0() {
-		this.nom = "Petit Prince";
+	public PetitPrince(String nom) {
+		this.nom = nom;
 		this.argent = 0;
 		console = new ConsoleJavaBoy(this);
 		//run();
@@ -33,3 +33,4 @@ public class PetitPrince0 implements Sujet{
 	}
 
 }
+

@@ -28,7 +28,7 @@ import asteroide.serveur.VueSujet;
 
 public class QuasiConsole extends UnicastRemoteObject implements Console {
 	private static final long serialVersionUID = 1L;
-	private static final int port=5099;	//port par defaut pour communiquer avec le serveur RMI
+	private static final int port=1099;	//port par defaut pour communiquer avec le serveur RMI
 	private Remote server=null;
 	private VueSujet vs;
 	private Sujet c;

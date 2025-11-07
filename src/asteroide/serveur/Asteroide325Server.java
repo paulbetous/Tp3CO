@@ -200,7 +200,7 @@ public class Asteroide325Server extends UnicastRemoteObject implements Asteroide
 	 * @param args Le port sur lequel on lance le serveur.
 	 */
 	public static void main(String[] args) throws Exception {
-		int port=5099;	//par defaut, port=5099
+		int port=1099;	//par defaut, port=5099
 		if (args.length!=0) 
 			port = Integer.parseInt(args[0]);
 		
